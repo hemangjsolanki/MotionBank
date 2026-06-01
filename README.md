@@ -1,13 +1,10 @@
-https://github.com/user-attachments/assets/ccaf6ace-a4b0-4d5c-b0bc-05b9288eaf03
-
-
-<img width="603" height="1311" alt="IMG_7267" src="https://github.com/user-attachments/assets/76b595ae-5f3e-4b21-87b3-db3579dfb55d" />
-<img width="603" height="1311" alt="IMG_7268" src="https://github.com/user-attachments/assets/02220119-9cbb-461a-b3a5-361179537bea" />
-<img width="603" height="1311" alt="IMG_7269" src="https://github.com/user-attachments/assets/6843a041-8814-46d5-847c-ef553a60a5a9" />
+<img width="603" height="1311" alt="IMG_7271" src="https://github.com/user-attachments/assets/50267693-f781-4a31-9dc4-e893607f49ec" />
+<img width="603" height="1311" alt="IMG_7272" src="https://github.com/user-attachments/assets/be638882-2b1f-436d-9fa0-052dc77dcb44" />
+<img width="603" height="1311" alt="IMG_7274" src="https://github.com/user-attachments/assets/62d14ce2-3576-4215-ab63-7372dcde01f2" />
 
 # MotionBank
 
-MotionBank is a modern iOS banking application showcase designed to demonstrate advanced UI/UX concepts, modern Swift/SwiftUI features, global state management, and various native iOS frameworks.
+MotionBank is a modern iOS banking application showcase designed to demonstrate advanced! UI/UX concepts, modern Swift/SwiftUI features, global state management, and various native iOS frameworks.
 
 ## Features Included
 
