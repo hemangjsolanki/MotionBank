@@ -23,11 +23,11 @@ struct ContentView: View {
                 }
                 .tag(2)
             
-            ScannerFeatureView()
-                .tabItem {
-                    Label("Scan", systemImage: "qrcode.viewfinder")
-                }
-                .tag(3)
+//            ScannerFeatureView()
+//                .tabItem {
+//                    Label("Scan", systemImage: "qrcode.viewfinder")
+//                }
+//                .tag(3)
         }
         .accentColor(.blue)
     }
