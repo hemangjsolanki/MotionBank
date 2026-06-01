@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  ShimmerView
+//
+//  Created by Hemang Solanki on 01/06/26.
+//
+
 import SwiftUI
 
 struct ShimmerView: View {

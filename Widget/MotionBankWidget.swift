@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  MotionBankWidgetEntryView
+//
+//  Created by Hemang Solanki on 01/06/26.
+//
+
 import SwiftUI
 import WidgetKit
 import ActivityKit

@@ -1,3 +1,11 @@
+//
+//  ContentView.swift
+//  ContentView
+//
+//  Created by Hemang Solanki on 01/06/26.
+//
+
+
 import SwiftUI
 
 struct ContentView: View {
@@ -22,12 +30,7 @@ struct ContentView: View {
                     Label("Cards", systemImage: "creditcard.fill")
                 }
                 .tag(2)
-            
-//            ScannerFeatureView()
-//                .tabItem {
-//                    Label("Scan", systemImage: "qrcode.viewfinder")
-//                }
-//                .tag(3)
+    
         }
         .accentColor(.blue)
     }
