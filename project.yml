@@ -1,0 +1,28 @@
+name: MotionBank
+options:
+  bundleIdPrefix: com.motionbank
+targets:
+  MotionBank:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.4"
+    sources:
+      - App
+      - DesignSystem
+      - Features
+      - Integration
+      - Models
+      - Widget
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_NSCameraUsageDescription: "We need access to the camera to scan cards."
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "Apple Development"
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_VERSION: 5.0

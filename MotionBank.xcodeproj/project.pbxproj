@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7FF897D02AFD19B8B70583 /* MotionBankWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA57269C6B590FA67D5EB4F /* MotionBankWidget.swift */; };
+		3C6DF2EF9560EA490F0C11A5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24239B09D6B2086A7E2D40C9 /* Models.swift */; };
+		5601463B8F8F0E706B23F813 /* CardDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60606D925C80790563F1449 /* CardDetailViews.swift */; };
+		61B1F8062D944E9648E41EC6 /* AppleMapsBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D87698DD07D6B2CB15DA94 /* AppleMapsBottomSheet.swift */; };
+		64E65E22581CDD26FDAE5E81 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49A92CAC4FA9206A9A21FC /* DashboardView.swift */; };
+		737154D9E22F8FD8C0D279D7 /* DashboardDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F31D5FBF091B216A16AE5 /* DashboardDetailViews.swift */; };
+		7B0E5E84448EF69A180B8748 /* MotionBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8BF68326FF5E71EB6438C /* MotionBankApp.swift */; };
+		A29AAE1C38B01B51728B4199 /* HeroTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB35ED5F1C1B3873D600CA0 /* HeroTransitionView.swift */; };
+		BAA86720C6D010C930C47806 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E26BE0711EC5DDB39B199D /* DesignSystem.swift */; };
+		BD9278BAB9366395D8031763 /* AVFoundationScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86900E7425CEB70E0D9A20F3 /* AVFoundationScanner.swift */; };
+		DC91080B5268D73BCCB26CD1 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B6A2EEA848EC3865394F43 /* GlobalState.swift */; };
+		DFE70EFD8D1AF1341744D6B5 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FD880D2FAF200C3C22C3B7 /* Shimmer.swift */; };
+		ECC468260CDC98323457BA56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53BA0C823CD70C8D5DFC55 /* ContentView.swift */; };
+		F27F1519329C37C10E8407DF /* WalletCardExpansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237DD665244097F1ADB1E61C /* WalletCardExpansion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		237DD665244097F1ADB1E61C /* WalletCardExpansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardExpansion.swift; sourceTree = "<group>"; };
+		24239B09D6B2086A7E2D40C9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		486B571C43AD07A241F37C9A /* MotionBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA57269C6B590FA67D5EB4F /* MotionBankWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionBankWidget.swift; sourceTree = "<group>"; };
+		5A49A92CAC4FA9206A9A21FC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5D53BA0C823CD70C8D5DFC55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83E26BE0711EC5DDB39B199D /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		86900E7425CEB70E0D9A20F3 /* AVFoundationScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationScanner.swift; sourceTree = "<group>"; };
+		94FD880D2FAF200C3C22C3B7 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		AEF8BF68326FF5E71EB6438C /* MotionBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionBankApp.swift; sourceTree = "<group>"; };
+		B1D87698DD07D6B2CB15DA94 /* AppleMapsBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsBottomSheet.swift; sourceTree = "<group>"; };
+		E60606D925C80790563F1449 /* CardDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViews.swift; sourceTree = "<group>"; };
+		E93F31D5FBF091B216A16AE5 /* DashboardDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDetailViews.swift; sourceTree = "<group>"; };
+		F8B6A2EEA848EC3865394F43 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+		FAB35ED5F1C1B3873D600CA0 /* HeroTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTransitionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02B668CDD9323FB591C674F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6A2EEA848EC3865394F43 /* GlobalState.swift */,
+				24239B09D6B2086A7E2D40C9 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A67C0CCA3D1EA997E621373 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				B1D87698DD07D6B2CB15DA94 /* AppleMapsBottomSheet.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		3D54AA72C8C28CB4272F6A71 /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				86900E7425CEB70E0D9A20F3 /* AVFoundationScanner.swift */,
+			);
+			path = Integration;
+			sourceTree = "<group>";
+		};
+		48C7A85B5D0412A0E8361587 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				83E26BE0711EC5DDB39B199D /* DesignSystem.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		4DF790AD3D3BE416A663FEE9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2A67C0CCA3D1EA997E621373 /* BottomSheet */,
+				762D34EB55AB9664F42DD725 /* Components */,
+				83D9DCED67C229D346A3A40F /* Dashboard */,
+				94CB79917620716EBED71276 /* Wallet */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		53730BC0990E15A3578CE275 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4FA57269C6B590FA67D5EB4F /* MotionBankWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		6877D86BCAA1A9236DA19B02 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D53BA0C823CD70C8D5DFC55 /* ContentView.swift */,
+				AEF8BF68326FF5E71EB6438C /* MotionBankApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		762D34EB55AB9664F42DD725 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAB35ED5F1C1B3873D600CA0 /* HeroTransitionView.swift */,
+				94FD880D2FAF200C3C22C3B7 /* Shimmer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		83D9DCED67C229D346A3A40F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E93F31D5FBF091B216A16AE5 /* DashboardDetailViews.swift */,
+				5A49A92CAC4FA9206A9A21FC /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		8A04037C8824805CA305A089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486B571C43AD07A241F37C9A /* MotionBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94CB79917620716EBED71276 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				E60606D925C80790563F1449 /* CardDetailViews.swift */,
+				237DD665244097F1ADB1E61C /* WalletCardExpansion.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		DC10A569135582A2C19EF2B6 = {
+			isa = PBXGroup;
+			children = (
+				6877D86BCAA1A9236DA19B02 /* App */,
+				48C7A85B5D0412A0E8361587 /* DesignSystem */,
+				4DF790AD3D3BE416A663FEE9 /* Features */,
+				3D54AA72C8C28CB4272F6A71 /* Integration */,
+				02B668CDD9323FB591C674F8 /* Models */,
+				53730BC0990E15A3578CE275 /* Widget */,
+				8A04037C8824805CA305A089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6980FEF987750357EF3BC22C /* MotionBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B47B056196C6A6C9086130E /* Build configuration list for PBXNativeTarget "MotionBank" */;
+			buildPhases = (
+				2438D52EE78A0E5182123562 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionBank;
+			packageProductDependencies = (
+			);
+			productName = MotionBank;
+			productReference = 486B571C43AD07A241F37C9A /* MotionBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3A2847410557D3F412CA57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6980FEF987750357EF3BC22C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8FDF02736357809EA642026E /* Build configuration list for PBXProject "MotionBank" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DC10A569135582A2C19EF2B6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8A04037C8824805CA305A089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6980FEF987750357EF3BC22C /* MotionBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2438D52EE78A0E5182123562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9278BAB9366395D8031763 /* AVFoundationScanner.swift in Sources */,
+				61B1F8062D944E9648E41EC6 /* AppleMapsBottomSheet.swift in Sources */,
+				5601463B8F8F0E706B23F813 /* CardDetailViews.swift in Sources */,
+				ECC468260CDC98323457BA56 /* ContentView.swift in Sources */,
+				737154D9E22F8FD8C0D279D7 /* DashboardDetailViews.swift in Sources */,
+				64E65E22581CDD26FDAE5E81 /* DashboardView.swift in Sources */,
+				BAA86720C6D010C930C47806 /* DesignSystem.swift in Sources */,
+				DC91080B5268D73BCCB26CD1 /* GlobalState.swift in Sources */,
+				A29AAE1C38B01B51728B4199 /* HeroTransitionView.swift in Sources */,
+				3C6DF2EF9560EA490F0C11A5 /* Models.swift in Sources */,
+				7B0E5E84448EF69A180B8748 /* MotionBankApp.swift in Sources */,
+				1F7FF897D02AFD19B8B70583 /* MotionBankWidget.swift in Sources */,
+				DFE70EFD8D1AF1341744D6B5 /* Shimmer.swift in Sources */,
+				F27F1519329C37C10E8407DF /* WalletCardExpansion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09F58B78F4C009356BB478DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0C5262CAE681A8796A5BCED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z2SRXP4S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to scan cards.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motionbank.MotionBank;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D366AA7056EDB395D68CD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z2SRXP4S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to scan cards.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.motionbank.MotionBank;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81DF137CD99DFC6C75B9F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B47B056196C6A6C9086130E /* Build configuration list for PBXNativeTarget "MotionBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D366AA7056EDB395D68CD3F /* Debug */,
+				0C5262CAE681A8796A5BCED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FDF02736357809EA642026E /* Build configuration list for PBXProject "MotionBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81DF137CD99DFC6C75B9F80 /* Debug */,
+				09F58B78F4C009356BB478DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3A2847410557D3F412CA57 /* Project object */;
+}
